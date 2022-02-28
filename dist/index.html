@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat_GreatMarathon</title>
+    <link href="/chat-svgrepo-com.9a23abaf.svg" rel="shortcut icon">
+    <link href="/index.0243a6ab.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Основная страница чата -->
+
+    <div id="dialog">
+        <div class="header-dialog">
+            <button type="button" id="elem" class="set-btn">Настройки</button>
+            <button type="button" class="exit-btn">Выйти</button>
+        </div>
+    
+        <div class="main-dialog">
+
+            <template class="inside-elem">
+                <div class="inside-msg">
+                    <div class="inside-text"></div>
+                    <div class="time"></div>
+                </div>
+            </template>
+
+            <!-- <template id="outside-msg"> -->
+            <div class="outside-msg">
+                <div class="outside-text">мариморимолр имо тоато ровиуо рамк роам аки аорикаорикаро</div>
+                <div class="time">01:05</div>
+            </div>
+            <!-- </template> -->
+
+        </div>
+    
+        <div class="footer-dialog">
+            <form id="input-form" class="input-form">
+                <input type="text" id="text" class="text-input" placeholder="сообщение..">
+                <button type="button" class="input-btn">&#8208&#62</button>
+            </form>
+        </div>
+
+    </div>
+
+<!-- Авторизация -->
+
+    <div id="username">
+        <div class="container">
+            <div class="header-reg">
+                <div class="reg-btn">Авторизация</div>
+                <button type="button" id="end_btn"></button>
+            </div>
+            <div class="headline"><span>Почта:</span></div>
+            <form id="data"><input type="text" id="data" class="name-input"></form>
+            <button type="button" class="confirm-btn">Получить код</button>  
+        </div>
+    </div>
+
+<!-- Подтверждение -->
+
+    <div id="username">
+        <div class="container">
+            <div class="header-reg">
+                <div class="reg-btn">Подтверждение</div>
+                <button type="button" id="end_btn"></button>
+            </div>
+            <div class="headline"><span>Код:</span></div>
+            <form id="data"><input type="text" id="data" class="name-input"></form>
+            <button type="button" class="confirm-btn">Войти</button> 
+        </div>
+    </div>
+
+<!-- Ник нейм -->
+
+    <div id="username">
+        <div class="container">
+            <div class="header-reg">
+                <div class="reg-btn">Настройки</div>
+                <button type="button" id="end_btn"></button>
+            </div>
+            <div class="headline"><span>Имя в чате:</span></div>
+            <form id="data"><input type="text" id="data" class="name-input"></form>
+            <button type="button" class="confirm-btn">&#8208&#62</button>
+        </div>
+    </div>
+    
+    
+    <script src="/index.fbb3188c.js" defer=""></script>
+    <script src="/js/view.js" defer=""></script>
+    <!-- <script src="./js/main.js" type="module" ></script> -->
+    <!-- <script src="./js/view.js" type="module" ></script> -->
+</body>
+</html>

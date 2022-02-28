@@ -1,0 +1,1 @@
+export const API_URL = new URL('http://local_server:1234');
